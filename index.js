@@ -48,9 +48,9 @@ switch (randomNumber2) {
 }
 
 if (randomNumber1 > randomNumber2) {
-    document.querySelector(".container h1").innerHTML = "Player1 Wins!";
+    document.querySelector(".container h1").innerHTML = "🚩 Player1 Wins!";
 } else if (randomNumber1 < randomNumber2) {
-    document.querySelector(".container h1").innerHTML = "Player2 Wins!";
+    document.querySelector(".container h1").innerHTML = "Player2 Wins! 🚩";
 } else {
     document.querySelector(".container h1").innerHTML = "DRAW";
 }
